@@ -1,0 +1,124 @@
+body {
+  font-family: "Marvel", sans-serif;
+}
+.bg-full{
+  background: url(https://raw.githubusercontent.com/sergeyradkov/rezume/master/PICS/header_4.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 640px;
+}
+
+#hello {
+  margin-top: 25%;
+  color: #dd8844;
+  font-style: italic;
+}
+#hello h2{
+ text-align: right;
+ font-size: 2em;
+}
+#hello h1{
+ font-size: 4em;
+}
+
+.my-flex-container{
+  display: flex;
+  justify-content: space-around;
+  color: #dd8844;
+  font-style: italic;
+  font-size: 2em;
+  margin-top: -1%;
+  height: 100px;
+}
+
+a, a:hover{
+    color: #dd8844;
+    text-decoration: none;
+}
+.my-flex-block{
+   padding: 5px;
+   height: 100%;
+   width: 120px;
+   padding-top: 6%;
+   text-align: center;
+}
+
+.my-flex-block:hover{
+    border-bottom: 1px solid #ddddcc;
+    color: #555566;
+}
+
+#about {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  display: block;
+  background-color: #ddddcc;
+  font-size: 22px;
+}
+
+.head-one {
+    font-size: 56px;
+    text-align: center;
+}
+.head-two{
+    font-size: 24px;
+    text-align: center;
+}
+  
+#abilities, #portfolio{
+  opacity:0.7;
+  height: 400px;
+  background-color: #dd8844;
+}
+
+#experience{
+  display: block;
+  height: 400px;
+  background-color: #ddddcc;
+  opacity:0.7;
+}
+
+#contacts{
+  font-size: 22px;
+  opacity: 0.9;
+  background: url(https://raw.githubusercontent.com/sergeyradkov/rezume/master/PICS/con_2.jpg)no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+#my-img {
+ height: 260px;
+ border-radius: 50%;
+ border: 3px solid #555566; 
+}
+
+.icons {
+  width:25px;
+  margin-right: 5px;
+  padding: 0;
+ }
+ .soc-icons{
+  width: 50px;
+  margin-right: 20px;
+  padding: 0;
+ }
+ 
+ ul, li {
+list-style: none;
+display: block;
+padding: 0;
+margin-bottom: 5px;
+}
+
+.form-group{
+  margin-bottom: 20px;
+
+}
+label{
+  font-weight: normal;
+}
