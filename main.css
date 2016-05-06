@@ -2,7 +2,7 @@ body {
   font-family: "Marvel", sans-serif;
 }
 .bg-full{
-  background: url(https://raw.githubusercontent.com/sergeyradkov/rezume/master/PICS/header_4.jpg) no-repeat center center fixed;
+  background: url(/asset/img/header_4.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -83,7 +83,7 @@ a, a:hover{
 #contacts{
   font-size: 22px;
   opacity: 0.9;
-  background: url(https://raw.githubusercontent.com/sergeyradkov/rezume/master/PICS/con_2.jpg)no-repeat center center fixed;
+  background: url(/asset/img/back-down.jpg)no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
