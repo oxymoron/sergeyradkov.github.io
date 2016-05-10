@@ -6,7 +6,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 640px;
+  height: 100%;
 }
 .icons {
   width:25px;
@@ -28,8 +28,8 @@ margin-bottom: 5px;
 
 .form-group{
   margin-bottom: 20px;
-
 }
+
 label{
   font-weight: normal;
 }

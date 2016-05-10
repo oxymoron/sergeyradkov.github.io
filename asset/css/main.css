@@ -80,16 +80,7 @@ a, a:hover{
   opacity:0.7;
 }
 
-#contacts{
-  font-size: 22px;
-  opacity: 0.9;
-  background: url(/asset/img/back-down.jpg)no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 
-}
 
 #my-img {
  height: 260px;
@@ -97,28 +88,3 @@ a, a:hover{
  border: 3px solid #555566; 
 }
 
-.icons {
-  width:25px;
-  margin-right: 5px;
-  padding: 0;
- }
- .soc-icons{
-  width: 50px;
-  margin-right: 20px;
-  padding: 0;
- }
- 
-ul, li {
-list-style: none;
-display: block;
-padding: 0;
-margin-bottom: 5px;
-}
-
-.form-group{
-  margin-bottom: 20px;
-
-}
-label{
-  font-weight: normal;
-}
