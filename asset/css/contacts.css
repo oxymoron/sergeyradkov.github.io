@@ -19,17 +19,17 @@
   padding: 0;
  }
  
-ul, li {
+#contacts ul, li {
 list-style: none;
 display: block;
 padding: 0;
 margin-bottom: 5px;
 }
 
-.form-group{
+#contacts .form-group{
   margin-bottom: 20px;
 }
 
-label{
+#contacts label{
   font-weight: normal;
 }
