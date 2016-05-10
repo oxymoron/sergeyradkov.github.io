@@ -7,3 +7,4 @@ angular.module('resume').config(function($stateProvider){
     );
 
 });})();
+angular.module('resume').component('MainPage', {});
