@@ -7,7 +7,7 @@ app.config(function($stateProvider){
 
 });
 
-app.component('mainPage', {
+angular.module('resume').component('mainPage', {
         templateUrl: 'pages/main.html',
         controllerAs: 'vm',
         controller: function(){}
