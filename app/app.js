@@ -2,5 +2,8 @@
 
 (function(){
 angular.module('resume').config(function($stateProvider){
-    $stateProvider.state('home', {url:'', template: '<resume-service></resume-service>'});
+    $stateProvider.state('main', {url:'/pages/main.html', template: '<main-page></main-page>'}
+                  .state('about',{url:'/pages/about.html',template: '<about></about>'})
+    );
+
 });})();
