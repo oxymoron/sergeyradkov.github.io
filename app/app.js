@@ -6,12 +6,12 @@ angular.module('resume').config(function($stateProvider){
     $stateProvider
         .state('home',{
         url: '',
-        template: '<main-page></main-page>'
+        template: '<about-me></about-me>'
         })
 });
 
-angular.module('resume').component('mainPage', {
-        templateUrl: 'pages/main.html',
+angular.module('resume').component('aboutMe', {
+        templateUrl: 'pages/about.html',
         controller: function(){}
         
 });
