@@ -25,13 +25,3 @@ angular.module('resume').component('contacts', {
         controller: function(){}
         
 });
-
-    
-/*angular.module('resume').config(function($stateProvider){
-    
-    $stateProvider
-        .state('home',{
-        url: '',
-        template: '<about-me></about-me>'
-        })
-}); */
