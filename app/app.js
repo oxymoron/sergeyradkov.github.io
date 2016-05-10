@@ -1,6 +1,6 @@
-var app = angular.module('resume', ['ui.router']);
+(function(){var app = angular.module('resume', ['ui.router'])})();
 
-app.config(function($stateProvider){
+angular.module('resume').config(function($stateProvider){
     $stateProvider.state('main', {url:'', template: '<main-page></main-page>'}
                   .state('about',{url:'/pages/about.html',template: '<about></about>'})
     );
