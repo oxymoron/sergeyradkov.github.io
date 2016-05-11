@@ -36,10 +36,10 @@
     background-color: lightgray;
 }
 
-.media {
-    display: inline-block !important;
-    margin-right: 50px;
+#abilities img{
+    width: 100px;
 }
-img{
+#abilities .icon-list {
+    display: inline-block;
     width: 100px;
 }
