@@ -39,3 +39,6 @@
 .media {
     display: inline-block !important;
 }
+img{
+    width: 100px;
+}
