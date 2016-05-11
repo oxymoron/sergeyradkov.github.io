@@ -30,8 +30,8 @@
 }
 #abilities ul > li .ability-score {
     float: right;
+    padding-right: 5px;
 }
 #abilities ul>li:hover{
     background-color: lightgray;
-    padding-right: -15px;
 }
