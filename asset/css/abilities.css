@@ -35,9 +35,7 @@
 #abilities ul>li:hover{
     background-color: lightgray;
 }
-img{
-    width: 70px;
-}
-.tools, .media {
+
+.media {
     display: inline-block !important;
 }
