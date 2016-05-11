@@ -33,4 +33,5 @@
 }
 #abilities ul>li:hover{
     background-color: lightgray;
+    padding-right: -15px;
 }
