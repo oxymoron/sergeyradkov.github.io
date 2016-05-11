@@ -38,6 +38,6 @@
 img{
     width: 70px;
 }
-.tools{
+.tools, .media {
     display: inline-block !important;
 }
