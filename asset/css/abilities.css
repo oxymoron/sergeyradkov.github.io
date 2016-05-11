@@ -38,6 +38,7 @@
 
 .media {
     display: inline-block !important;
+    margin-right: 100px;
 }
 img{
     width: 100px;
