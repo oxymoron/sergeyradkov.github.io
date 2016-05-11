@@ -19,7 +19,8 @@
   color: lightblue;
 }
 #abilities .stars:hover {
-    transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    color: blue;
 }
