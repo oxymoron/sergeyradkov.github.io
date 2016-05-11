@@ -18,3 +18,8 @@
 #abilities .lite {
   color: lightblue;
 }
+#abilities .stars:hover {
+    transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
