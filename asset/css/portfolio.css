@@ -1,5 +1,8 @@
 #portfolio{
-  opacity:0.7;
-  height: 400px;
-  background-color: #edeeef;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  height: 100%;
+  display: block;
+  background-color: #ddddcc;
+  font-size: 22px;
 }
