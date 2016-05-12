@@ -42,5 +42,6 @@
 #abilities .icon-list {
     display: inline-block;
     width: 100px;
-    margin-right: 30px;
+    margin: 0 25 px 25px 0;
+    
 }
