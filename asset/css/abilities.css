@@ -39,8 +39,8 @@
 #abilities img{
     width: 80px;
 }
+
 #abilities .icon-list {
     display: inline-block;
-    margin: 10px;
-    
+    margin: 5px 10px 5px 10px;
 }
