@@ -5,3 +5,8 @@
   background-color: #ddddcc;
   font-size: 22px;
 }
+#my-img {
+ height: 260px;
+ border-radius: 50%;
+ border: 3px solid #555566; 
+}
