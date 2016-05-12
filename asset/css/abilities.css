@@ -37,11 +37,10 @@
 }
 
 #abilities img{
-    width: 100px;
+    width: 90px;
 }
 #abilities .icon-list {
     display: inline-block;
-    width: 100px;
-    margin: 0 25 px 25px 0;
+    margin: 15px;
     
 }
