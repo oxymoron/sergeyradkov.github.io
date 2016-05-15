@@ -6,3 +6,11 @@
   font-size: 22px;
   color: #333;
 }
+#experience .resume-btn {
+  color: black;
+  font-size: 22px;
+}
+#experience .resume-btn:hover {
+  color: antiquewhite;
+  font-size: 22px;
+}

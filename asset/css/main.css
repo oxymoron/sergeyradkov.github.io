@@ -33,7 +33,7 @@ body {
   height: 100px;
 }
 
-a, a:hover{
+.my-flex-container a, a:hover{
     color: #dd8844;
     text-decoration: none;
 }
@@ -49,8 +49,6 @@ a, a:hover{
     border-bottom: 1px solid #ddddcc;
     color: #555566;
 }
-
-
 
 .head-one {
     font-size: 56px;
