@@ -3,14 +3,14 @@
   padding-bottom: 60px;
   display: block;
   background-color: #ddddcc;
-  font-size: 22px;
+  font-family: "Marvel", sans-serif;
+  font-size: 20px;
   color: #333;
 }
 #experience .resume-btn {
   color: black;
-  font-size: 22px;
+  font-size: 16px;
 }
 #experience .resume-btn:hover {
   color: antiquewhite;
-  font-size: 22px;
 }

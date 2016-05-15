@@ -50,13 +50,19 @@ body {
     color: #555566;
 }
 
-.head-one {
-    font-size: 56px;
+.head-one{
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-style: normal;
 }
 .head-two{
-    font-size: 28px;
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-style: normal;
 }
 
 

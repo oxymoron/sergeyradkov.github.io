@@ -3,10 +3,11 @@
   padding-bottom: 60px;
   display: block;
   background-color: #ddddcc;
-  font-size: 22px;
+  font-size: 20px;
+  font-family: "Marvel", sans-serif;
 }
 #my-img {
- height: 260px;
+ height: 200px;
  border-radius: 50%;
  border: 3px solid #555566; 
 }
