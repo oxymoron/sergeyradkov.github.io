@@ -3,10 +3,10 @@
   padding-bottom: 60px;
   display: block;
   color: #333;
-  height: 100%;
   background-color: #edeeef;
   font-family: "Marvel", sans-serif;
   font-size: 20px;
+  z-index: 100;
 }
 #abilities .glyphicon {
     position: relative;

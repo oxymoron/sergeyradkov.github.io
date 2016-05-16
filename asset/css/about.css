@@ -9,7 +9,8 @@
 #my-img {
  height: 200px;
  border-radius: 50%;
- border: 3px solid #555566; 
+ border: 3px solid #555566;
+ display: block;
 }
 #about > .navbar-default .navbar-nav>li>a {
     color: black;
