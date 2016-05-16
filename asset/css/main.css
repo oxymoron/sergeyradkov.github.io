@@ -27,11 +27,11 @@ row {
 .navbar-right {
     float: right!important;
 }
-.navbar .navbar-static-top ul, li{
+.navbar ul, li{
   list-style: none;
   display: block;
 }
-.navbar .navbar-static-top > li a{
+.navbar > li a{
   text-decoration: none;
   font-style: italic;
   display: block;
@@ -41,8 +41,9 @@ row {
   height: 50px;
   border-radius: 5px;
   text-align: left;
+  padding-left: 5px;
 }
-.navbar .navbar-static-top > li a:hover{
+.navbar > li a:hover{
   background-color: #334444;
   color: #ddddcc;
 }
