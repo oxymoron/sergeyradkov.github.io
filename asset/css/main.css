@@ -20,9 +20,13 @@ row {
   margin-top: 5%;
 }
 
-.navbar ul, li{
+.navbar ul> li{
   list-style: none;
   display: block;
+  height: 60px;
+}
+.navbar>container-fluid {
+  margin: 0;
 }
 .navbar > li a{
   text-decoration: none;
@@ -30,10 +34,10 @@ row {
   display: block;
   font-size: 28px;
   color: #dd8844;
-  height: 50px;
-  border-radius: 5px;
   text-align: center;
-  padding-left: 5px;
+  margin: 0;
+  background-color: black;
+  opacity: 0.8;
 }
 .navbar > li a:hover{
   background-color: #334444;
