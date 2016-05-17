@@ -17,16 +17,9 @@ row {
 .navbar-default .navbar-collapse, .navbar-default{
   background-color: transparent;
   border: none;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
-.navbar .navbar-static-top{
-    margin-top: 15%;
-    
-}
-.navbar-right {
-    float: right!important;
-}
 .navbar ul, li{
   list-style: none;
   display: block;
@@ -37,10 +30,9 @@ row {
   display: block;
   font-size: 28px;
   color: #dd8844;
-  width: 150px;
   height: 50px;
   border-radius: 5px;
-  text-align: left;
+  text-align: center;
   padding-left: 5px;
 }
 .navbar > li a:hover{
