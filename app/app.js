@@ -7,8 +7,10 @@ angular.module('resume').component('aboutMe', {
 });
 angular.module('resume').component('abilities', {
         templateUrl: 'pages/abilities.html',
-        controller: function(){}
-        
+        controller: function(ResumeService){
+           this.tools = ResumeService.getTools();
+           this.skills = ResumeService.getSkills();
+        } 
 });
 angular.module('resume').component('experience', {
         templateUrl: 'pages/experience.html',
@@ -23,7 +25,6 @@ angular.module('resume').component('portfolio', {
 angular.module('resume').component('contacts', {
         templateUrl: 'pages/contacts.html',
         controller: function(ResumeService){
-          var vm = this;
-          vm.socialLinks = ResumeService.getSocialLinks();
+          this.socialLinks = ResumeService.getSocialLinks();
         }
 });
