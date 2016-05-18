@@ -5,11 +5,10 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100%;
+  height: fit-content;
   color: antiquewhite !important;
   font-family: "Marvel", sans-serif;
   font-size: 20px;
-  padding-top: 3%;
 }
 .icons {
   width: 25px;
