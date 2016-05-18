@@ -104,8 +104,13 @@
             </div>
           
           <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-1 col-xs-12 text-center">
-            
-                    <div class="icon-list">
+              
+               <div class="icon-list" ng-repeat="tool in $ctrl.tools">
+                     <a href={{tool.url}} target="_blank">
+                     <img title= {{tool.title}} src={{tool.img}} alt={{tool.title}}>
+                     </a>
+               </div>
+   <!--                 <div class="icon-list">
                         <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank">
                         <img title="HTML" src="asset/img/html.png" alt="html">
                         </a>
@@ -166,7 +171,7 @@
                             <a target="_blank" href="https://www.jetbrains.com/idea/">
                             <img title="Intellij IDEA" src="asset/img/idea.png" alt="idea" target="_blank">
                             </a>
-                    </div>
+                    </div>-->
 
       </div>
       <div class="col-md-12 col-sm-12 col-xs-12 text-center" style='margin-bottom: 20px'>
