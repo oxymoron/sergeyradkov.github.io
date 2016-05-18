@@ -53,7 +53,7 @@ angular.module('resume')
 			title: 'JavaScript',
 			img: imgRoot + 'javascript.png'                                       
             },{
-            url: '',
+            url: 'https://msdn.microsoft.com/en-us/library/kx37x362.aspx',
 			title: 'C#',
 			img: imgRoot + 'csharp.png'                                       
             },{
@@ -75,6 +75,7 @@ angular.module('resume')
             }]
             
      this.getTools = function(){
+         return tools;
          
      }
      this.getSkills = function(){
