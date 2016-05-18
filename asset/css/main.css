@@ -18,6 +18,7 @@ row {
   background-color: transparent;
   border: none;
   margin-top: 5%;
+
 }
 
 .navbar ul> li{
@@ -25,10 +26,17 @@ row {
   display: block;
   height: 60px;
 }
-.navbar>container-fluid {
+
+.navtop > li a{
+  text-decoration: none;
+  font-style: italic;
+  display: block;
+  font-size: 28px;
+  color: #dd8844;
+  text-align: center;
   margin: 0;
 }
-.navbar > li a{
+.navmob > li a{
   text-decoration: none;
   font-style: italic;
   display: block;
