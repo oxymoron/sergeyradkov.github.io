@@ -100,7 +100,16 @@ angular.module('resume')
             url: 'http://sergeyradkov.github.io/pop-up-penguins/',
 			title: 'Find the penguins',
 			img: imgRoot + 'work/findup.png'    
-     }]
+     },{
+            url: 'http://sergeyradkov.github.io/pop-up-penguins/',
+			title: 'Find the penguins',
+			img: imgRoot + 'work/findup.png'    
+     },{
+            url: 'http://sergeyradkov.github.io/pop-up-penguins/',
+			title: 'Find the penguins',
+			img: imgRoot + 'work/findup.png'    
+     }];
+     
      this.getWorks = function(){
          return works;
      }

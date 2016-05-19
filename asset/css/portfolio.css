@@ -1,13 +1,24 @@
 #portfolio{
-  padding-top: 40px;
   padding-bottom: 60px;
-  height: 400px;
   display: block;
   background-color: #edeeef;
   font-family: "Marvel", sans-serif;
   font-size: 20px;
+  height: fit-content;
 }
-.work {
-  width: 100px;
+
+.work{
+    display: inline-block;
+    margin: 5px 10px 5px 10px;
+}
+
+.work img {
+  width: 270px;
   border: 1px solid black;
+}
+
+.work img:hover{
+      transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
 }
