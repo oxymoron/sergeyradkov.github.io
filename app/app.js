@@ -19,7 +19,9 @@ angular.module('resume').component('experience', {
 });
 angular.module('resume').component('portfolio', {
         templateUrl: 'pages/portfolio.html',
-        controller: function(){}
+        controller: function(ResumeService){
+          this.works = ResumeService.getWorks();
+        }
         
 });
 angular.module('resume').component('contacts', {

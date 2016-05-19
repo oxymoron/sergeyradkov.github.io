@@ -6,19 +6,19 @@ angular.module('resume')
     socialLinks = [{
             url: 'https://www.facebook.com/radkov.sn',
 			title: "Facebook",
-			img: imgRoot + 'facebook_icon.png'
+			img: imgRoot + 'social/facebook_icon.png'
 		    }, {
             url: 'https://www.linkedin.com/in/radkovsn',
 			title: "LikedIn",
-			img: imgRoot + 'linkedin_icon.png'
+			img: imgRoot + 'social/linkedin_icon.png'
 			}, {
             url: 'https://github.com/sergeyradkov',
 			title: "GitHub",
-			img: imgRoot + 'github_icon.png'
+			img: imgRoot + 'social/github_icon.png'
 			}, {
             url: 'https://www.instagram.com/sergeriic/',
 			title: "Instagram",
-			img: imgRoot + 'instagram_info.png'
+			img: imgRoot + 'social/instagram_info.png'
 	 }];
      
      this.getSocialLinks = function (){
@@ -75,10 +75,33 @@ angular.module('resume')
             }]
             
      this.getTools = function(){
-         return tools;
-         
+         return tools; 
      }
+     
+          skills = [{
+            url: "",
+			title: "",
+			img: imgRoot + '.png'
+            },{
+            url: "",
+			title: "",
+			img: imgRoot + 'css.png'
+            },{
+            url: "",
+			title: "",
+			img: imgRoot + '.png'
+            }]
+            
      this.getSkills = function(){
-         
+         return skills;
+     }
+     
+     works = [{
+            url: 'http://sergeyradkov.github.io/pop-up-penguins/',
+			title: 'Find the penguins',
+			img: imgRoot + 'work/findup.png'    
+     }]
+     this.getWorks = function(){
+         return works;
      }
 });

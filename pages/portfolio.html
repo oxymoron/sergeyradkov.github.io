@@ -1,8 +1,18 @@
 <div class="container-fluid" id="portfolio">
     <div class="row">
+        <div class="col-xs-12 col-sm-9 col-sm-offset-1 col-md-9 col-md-offset-1">
         <div class="col-xs-12 text-center">
             <h1 class="head-one">portfolio</h1>
-            <img style="height: 200px" class="center-block img-responsive" src="https://cdn4.iconfinder.com/data/icons/under-construction/512/under_construction_hummer-512.png" alt="under_construction">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            
+            <div class="work" ng-repeat="work in $ctrl.works">
+               <a href={{work.url}} target="_blank">
+               <img title= {{work.title}} src={{work.img}} alt={{work.title}}>
+               </a>   
+            </div>
+            
+        </div>
         </div>
     </div>
 </div>
