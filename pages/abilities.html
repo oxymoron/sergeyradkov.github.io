@@ -7,7 +7,15 @@
             
             <div class="col-md-9 col-md-offset-1 col-sm-10 col-xs-10">
             <ul>
-                <li>
+                <li ng-repeat="skill in $ctrl.skills">
+                   <span class='ability-title'>{{skill.item}}</span>
+                   <span class='ability-score stars'>
+                    <span class={{star}} ng-repeat="star in skill.stars track by $index" aria-hidden="true"></span>
+                </li>
+                    
+                    
+      <!--              
+                    
                     <span class='ability-title'>Creative problem solver</span>
                     <span class='ability-score stars'>
                         <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -66,7 +74,7 @@
                         <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
                         <span class="glyphicon glyphicon-star lite" aria-hidden="true"></span>
                     </span>
-                </li>            
+                </li>      -->      
             </ul>
             </div>
             
@@ -107,32 +115,22 @@
               
                <div class="icon-list" ng-repeat="tool in $ctrl.tools">
                      <a href={{tool.url}} target="_blank">
-                     <img title= {{tool.title}} src={{tool.img}} alt={{tool.title}}>
+                     <img title= {{tool.title}} ng-src={{tool.img}} alt={{tool.title}}>
                      </a>
                </div>
          </div>
          
-      <div class="col-md-12 col-sm-12 col-xs-12 text-center" style='margin-bottom: 20px'>
-              <h2 class="head-two"> Experience with</h2>
-      </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 text-center" style='margin-bottom: 20px'>
+                <h2 class="head-one"> Experience with</h2>
+        </div>
+        <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-1 col-xs-12 text-center">
+              <div class="icon-list" ng-repeat="exp in $ctrl.exps">
+                     <a href={{exp.url}} target="_blank">
+                     <img title= {{exp.title}} ng-src={{exp.img}} alt={{exp.title}}>
+                     </a>
+              </div>
+        </div>
       
-      <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-1 col-xs-12 text-center">
-                    <div class="icon-list">
-                        <a href="https://www.java.com/">
-                        <img title="Java" src="asset/img/java.png" alt="java" target="_blank">
-                        </a>
-                    </div>
-                    <div class="icon-list">
-                        <a href="http://developer.android.com/index.html">
-                        <img title="Android Studio" src="asset/img/as.png" alt="android studio" target="_blank">
-                        </a>
-                    </div>
-                    <div class="icon-list">
-                        <a href="https://nodejs.org/">
-                        <img title="Node.JS" src="asset/img/nodejs.png" alt="nodejs" target="_blank">
-                        </a>
-                    </div>             
-      </div>
 
 </div>
 </div>

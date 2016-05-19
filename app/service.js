@@ -78,20 +78,60 @@ angular.module('resume')
          return tools; 
      }
      
-          skills = [{
-            url: "",
-			title: "",
-			img: imgRoot + '.png'
+     exps = [{
+            url: "https://www.java.com/",
+			title: "Java",
+			img: imgRoot + 'java.png'
             },{
-            url: "",
-			title: "",
-			img: imgRoot + 'css.png'
+            url: "http://developer.android.com/index.html",
+			title: "Android Studio",
+			img: imgRoot + 'as.png'
             },{
-            url: "",
-			title: "",
-			img: imgRoot + '.png'
-            }]
-            
+            url: "https://nodejs.org/",
+			title: "Node.JS",
+			img: imgRoot + 'nodejs.png'
+          }]
+     this.getExps = function(){
+         return exps;
+     }
+     
+     
+     skills = [{
+       item: "Creative problem solver",
+       stars: star(5)
+       },{       
+       item: "Communication & negotiation",
+       stars: star(5)
+       },{
+        item: "Staff management",
+       stars: star(4)
+       },{
+       item: "Project management",
+       stars: star(4)
+       },{
+       item: "Analitycal skills",
+       stars: star(5)
+       },{
+       item: "Time management",
+       stars: star(4)
+       }]
+     
+     
+     function star(num) {
+         var stars = [];
+         for (var i = 0; i < 5; i++) {
+             var x = "glyphicon glyphicon-star"
+             if(i > num){
+               x = x + ' lite';  
+             }
+             stars.push(x);
+         }
+         
+         return stars;
+         
+     }
+
+                                  
      this.getSkills = function(){
          return skills;
      }
@@ -99,15 +139,7 @@ angular.module('resume')
      works = [{
             url: 'http://sergeyradkov.github.io/pop-up-penguins/',
 			title: 'Find the penguins',
-			img: imgRoot + 'work/findup.png'    
-     },{
-            url: 'http://sergeyradkov.github.io/pop-up-penguins/',
-			title: 'Find the penguins',
-			img: imgRoot + 'work/findup.png'    
-     },{
-            url: 'http://sergeyradkov.github.io/pop-up-penguins/',
-			title: 'Find the penguins',
-			img: imgRoot + 'work/findup.png'    
+			img: imgRoot + 'work/findup.png'  
      }];
      
      this.getWorks = function(){
