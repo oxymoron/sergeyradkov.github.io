@@ -119,16 +119,14 @@ angular.module('resume')
      
      function star(num) {
          var stars = [];
-         for (var i = 0; i < 5; i++) {
-             var x = "glyphicon glyphicon-star"
+         for (var i = 1; i < 6; i++) {
+             var x = "glyphicon glyphicon-star";
              if(i > num){
                x = x + ' lite';  
              }
              stars.push(x);
          }
-         
          return stars;
-         
      }
 
                                   
