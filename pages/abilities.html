@@ -10,7 +10,7 @@
                     <li ng-repeat="skill in $ctrl.skills">
                     <span class='ability-title'>{{skill.item}}</span>
                     <span class='ability-score stars'>
-                        <span class={{star}} ng-repeat="star in skill.stars track by $index" aria-hidden="true"></span>
+                        <span class="{{star}}" ng-repeat="star in skill.stars track by $index" aria-hidden="true"></span>
                     </li>     
                 </ul>
             </div>

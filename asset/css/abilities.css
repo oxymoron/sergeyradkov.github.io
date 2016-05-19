@@ -8,14 +8,14 @@
   font-size: 20px;
   z-index: 100;
 }
-#abilities .glyphicon {
+/*#abilities .glyphicon-star {
     position: relative;
     top: 1px;
     display: inline-block;
     font-weight: 400;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-}
+}*/
 #abilities .lite {
   color: lightblue;
 }
@@ -29,14 +29,15 @@
 #abilities ul {
     list-style: none;
 }
-#abilities ul > li .ability-title {
+.ability-title {
     display: inline-block;
     width: 60%;
 }
-#abilities ul > li .ability-score {
+.ability-score {
     float: right;
     padding-right: 15px;
 }
+
 #abilities ul>li:hover{
     background-color: lightgray;
 }
