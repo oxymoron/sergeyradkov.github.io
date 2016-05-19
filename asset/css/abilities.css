@@ -25,6 +25,10 @@
     -webkit-transform: scale(1.2);
     color: blue;
 }
+
+#ability ul {
+    list-style-type: none;
+}
 #abilities ul > li .ability-title {
     display: inline-block;
     width: 60%;
