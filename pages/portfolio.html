@@ -9,7 +9,7 @@
             
             <div class="work" ng-repeat="work in $ctrl.works">
                <a href={{work.url}} target="_blank">
-               <img title= {{work.title}} src={{work.img}} alt={{work.title}}>
+               <img title= {{work.title}} ng-src={{work.img}} alt={{work.title}}>
                </a>   
             </div>
             

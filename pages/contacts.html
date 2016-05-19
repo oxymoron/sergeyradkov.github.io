@@ -25,7 +25,7 @@
              <div class="col-md-12 col-sm-12 col-xs-12 text-center" style="margin-bottom: 50px;">
                 <div class="soc-icons" ng-repeat="soclink in $ctrl.socialLinks">
                      <a href={{soclink.url}} target="_blank">
-                     <img title= {{soclink.title}} src={{soclink.img}} alt={{soclink.title}}>
+                     <img title= {{soclink.title}} ng-src={{soclink.img}} alt={{soclink.title}}>
                      </a>
                 </div>
              </div>
