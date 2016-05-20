@@ -28,7 +28,7 @@ body {
 .navtop > li a{
   text-decoration: none;
   font-style: italic;
-  display: block;
+  display: inline-block;
   font-size: 28px;
   color: #dd8844;
   text-align: center;
@@ -46,8 +46,7 @@ body {
   opacity: 0.8;
 }
 .navbar > li a:hover{
-  background-color: #334444;
-  color: #ddddcc;
+color: black;
 }
 
 #hello {
