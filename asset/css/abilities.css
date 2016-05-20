@@ -8,16 +8,9 @@
   font-size: 20px;
   z-index: 100;
 }
-/*#abilities .glyphicon-star {
-    position: relative;
-    top: 1px;
-    display: inline-block;
-    font-weight: 400;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-}*/
+
 #abilities .lite {
-  color: lightblue;
+  color: mediumseagreen;
 }
 #abilities .stars:hover {
     transform: scale(1.2);
