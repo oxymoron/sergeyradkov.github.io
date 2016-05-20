@@ -10,7 +10,8 @@ angular.module('resume').component('abilities', {
         controller: function(ResumeService){
            this.tools  = ResumeService.getTools();
            this.exps   = ResumeService.getExps();
-           this.skills = ResumeService.getSkills();
+           this.skills = ResumeService.getSkills("skill");
+           this.languages = ResumeService.getSkills("language");
         } 
 });
 angular.module('resume').component('experience', {

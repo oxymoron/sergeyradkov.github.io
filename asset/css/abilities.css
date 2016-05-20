@@ -10,7 +10,7 @@
 }
 
 #abilities .lite {
-  color: mediumseagreen;
+  color: #bb8866;
 }
 #abilities .stars:hover {
     transform: scale(1.2);

@@ -98,22 +98,40 @@ angular.module('resume')
      
      skills = [{
        item: "Creative problem solver",
-       stars: star(5)
+       stars: star(5),
+       type: "main"
        },{       
        item: "Communication & negotiation",
-       stars: star(5)
+       stars: star(5),
+       type: "skill"
        },{
         item: "Staff management",
-       stars: star(4)
+       stars: star(4),
+       type: "skill"
        },{
        item: "Project management",
-       stars: star(4)
+       stars: star(4),
+       type: "skill"
        },{
        item: "Analitycal skills",
-       stars: star(5)
+       stars: star(5),
+       type: "skill"
        },{
        item: "Time management",
-       stars: star(4)
+       stars: star(4),
+       type: "skill"
+       },{
+       item: "Time management",
+       stars: star(4),
+       type: "skill"   
+       },{
+       item: "Russian",
+       stars: star(5),
+       type: "language"
+       },{
+       item: "English",
+       stars: star(4),
+       type: "language"    
        }]
      
      
@@ -130,8 +148,15 @@ angular.module('resume')
      }
 
                                   
-     this.getSkills = function(){
-         return skills;
+     this.getSkills = function(value){
+         var list = [];
+         for (var i = 0; i < skills.length; i++) {
+             if (skills[i].type == value) {
+                 list.unshift(skills[i]);
+             }
+         }
+         
+         return list;
      }
      
      works = [{
