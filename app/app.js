@@ -8,8 +8,8 @@ angular.module('resume').component('aboutMe', {
 angular.module('resume').component('abilities', {
         templateUrl: 'pages/abilities.html',
         controller: function(ResumeService){
-           this.tools  = ResumeService.getTools();
-           this.exps   = ResumeService.getExps();
+           this.tools  = ResumeService.getTools("tool");
+           this.exps   = ResumeService.getTools("exp");
            this.skills = ResumeService.getSkills("skill");
            this.languages = ResumeService.getSkills("language");
         } 

@@ -24,76 +24,94 @@ angular.module('resume')
      this.getSocialLinks = function (){
          return socialLinks;
      }
+     
      tools = [{
             url: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
 			title: 'HTML',
-			img: imgRoot + 'html.png'
+			img: imgRoot + 'html.png',
+            type: 'tool'
             },{
             url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
 			title: 'CSS',
-			img: imgRoot + 'css.png'
+			img: imgRoot + 'css.png',
+            type: 'tool'
             },{
             url: 'http://getbootstrap.com/',
 			title: 'Bootstrap',
-			img: imgRoot + 'bootstrap.png'
+			img: imgRoot + 'bootstrap.png',
+            type: 'tool'
             },{
             url: 'http://jquery.com/',
 			title: 'jQuery',
-			img: imgRoot + 'jquery.png'                                       
+			img: imgRoot + 'jquery.png',
+            type: 'tool'                                  
             },{
             url: 'https://angularjs.org/',
 			title: 'AngularJS',
-			img: imgRoot + 'angular.png' 
+			img: imgRoot + 'angular.png',
+            type: 'tool'
             },{
             url: 'https://www.firebase.com/',
 			title: 'Firebase',
-			img: imgRoot + 'firebase.png'                                       
+			img: imgRoot + 'firebase.png',
+            type: 'tool'                                      
             },{
             url: 'https://developer.mozilla.org/en/docs/Web/JavaScript',
 			title: 'JavaScript',
-			img: imgRoot + 'javascript.png'                                       
+			img: imgRoot + 'javascript.png' ,
+            type: 'tool'                                     
             },{
             url: 'https://msdn.microsoft.com/en-us/library/kx37x362.aspx',
 			title: 'C#',
-			img: imgRoot + 'csharp.png'                                       
+			img: imgRoot + 'csharp.png',
+            type: 'tool'                                  
             },{
             url: 'https://github.com/',
 			title: 'GitHub',
-			img: imgRoot + 'github.png'                                       
+			img: imgRoot + 'github.png',
+            type: 'tool'                                     
             },{
             url: 'https://www.microsoft.com/net/default.aspx',
 			title: 'Microsoft.NET',
-			img: imgRoot + 'dotnet.png'                                       
+			img: imgRoot + 'dotnet.png',
+            type: 'tool'                                       
             },{
             url: 'https://www.visualstudio.com/',
 			title: 'Visual Studio',
-			img: imgRoot + 'vs.png'                                       
+			img: imgRoot + 'vs.png',
+            type: 'tool'                                      
             },{
             url: 'https://www.jetbrains.com/idea/',
 			title: 'Intellij IDEA',
-			img: imgRoot + 'idea.png'                                                                  
-            }]
-            
-     this.getTools = function(){
-         return tools; 
-     }
-     
-     exps = [{
+			img: imgRoot + 'idea.png',
+            type: 'tool'                                                                 
+            },{
             url: "https://www.java.com/",
 			title: "Java",
-			img: imgRoot + 'java.png'
+			img: imgRoot + 'java.png',
+            type: 'exp'
             },{
             url: "http://developer.android.com/index.html",
 			title: "Android Studio",
-			img: imgRoot + 'as.png'
+			img: imgRoot + 'as.png',
+            type: 'exp'
             },{
             url: "https://nodejs.org/",
 			title: "Node.JS",
-			img: imgRoot + 'nodejs.png'
-          }]
-     this.getExps = function(){
-         return exps;
-     }
+			img: imgRoot + 'nodejs.png',
+            type: 'exp'
+          }];
+     
+   
+     this.getTools = function(value){
+         var list = [];
+         for (var i = 0; i < tools.length; i++) {
+             if (tools[i].type == value) {
+                 list.push(tools[i]);
+             };
+         };
+         return list;
+     };
      
      
      skills = [{
@@ -128,7 +146,7 @@ angular.module('resume')
        item: "English",
        stars: star(4),
        type: "language"    
-       }]
+       }];
      
      
      function star(num) {
@@ -137,13 +155,12 @@ angular.module('resume')
              var x = "glyphicon glyphicon-star";
              if(i > num){
                x = x + ' lite';  
-             }
+             };
              stars.push(x);
-         }
+         };
          return stars;
-     }
-
-                                  
+     };
+                       
      this.getSkills = function(value){
          var list = [];
          for (var i = 0; i < skills.length; i++) {
