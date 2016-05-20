@@ -4,7 +4,6 @@
             <div class="col-md-10 col-md-offset-1 col-sm-8 col-xs-12 text-center">
               <h2 class="head-one"> Proffesional skills</h2>
             </div>
-            
             <div class="col-md-9 col-md-offset-1 col-sm-10 col-xs-10">
                 <ul>
                     <li ng-repeat="skill in $ctrl.skills">
@@ -20,27 +19,13 @@
             </div>
             <div class="col-md-9 col-md-offset-1 col-sm-10 col-xs-10">
                 <ul>
-                    <li>
-                        <span class='ability-title'>Russian</span>
-                        <span class='ability-score stars'>
-                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                        </span>
-                    </li>
-                    <li>
-                        <span class='ability-title'>English</span>
-                        <span class='ability-score stars'>
-                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                            <span class="glyphicon glyphicon-star lite" aria-hidden="true"></span>
-                        </span>
-                    </li>
+                    <li ng-repeat="language in $ctrl.languages">
+                    <span class='ability-title'>{{language.item}}</span>
+                    <span class='ability-score stars'>
+                        <span style="margin-left: 5px" class="{{star}}" ng-repeat="star in language.stars track by $index" aria-hidden="true"></span>
+                    </li>     
                 </ul>
+            </div>
             </div>
 
             

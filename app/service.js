@@ -119,11 +119,7 @@ angular.module('resume')
        },{
        item: "Time management",
        stars: star(4),
-       type: "skill"
-       },{
-       item: "Time management",
-       stars: star(4),
-       type: "skill"   
+       type: "skill" 
        },{
        item: "Russian",
        stars: star(5),
@@ -152,7 +148,7 @@ angular.module('resume')
          var list = [];
          for (var i = 0; i < skills.length; i++) {
              if (skills[i].type == value) {
-                 list.unshift(skills[i]);
+                 list.push(skills[i]);
              }
          }
          
