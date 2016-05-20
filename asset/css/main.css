@@ -2,9 +2,7 @@ body {
   font-family: "Marvel", sans-serif;
   font-size: 20px;
 }
-row {
-  margin-top: 100px;
-}
+
 .bg-full{
   background: url(/asset/img/back-top.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
