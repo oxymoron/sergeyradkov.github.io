@@ -1,4 +1,4 @@
-angular.module('WorkService', function(){
+angular.module('resume').service('WorkService', function(){
     
     	var imgRoot = 'asset/img/work';
         

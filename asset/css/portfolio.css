@@ -7,17 +7,17 @@
   height: fit-content;
 }
 
-.work{
+.project{
     display: inline-block;
     margin: 5px 10px 5px 10px;
 }
 
-.work img {
+.project img {
   width: 270px;
   border: 1px solid black;
 }
 
-.work img:hover{
+.project img:hover{
       transform: scale(1.1);
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
