@@ -164,7 +164,7 @@ angular.module('resume')
      this.getSkills = function(value){
          var list = [];
          for (var i = 0; i < skills.length; i++) {
-             if (skills[i].type == value) {
+             if (skills[i].type === value) {
                  list.push(skills[i]);
              }
          }
