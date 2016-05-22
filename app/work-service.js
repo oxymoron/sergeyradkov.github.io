@@ -24,8 +24,15 @@ angular.module('WorkService', function(){
         description: "Five year program specialized in management, technology, communications and accounting for motor transport companies and business transport departments."
     }];
     
-         this.getEducation = function(){
+     this.getEducation = function(){
          return education;
      };
+     
+     var works = [{
+         
+     }]
+     
+     this.getWorks = function(){
+         return works;
     
 });

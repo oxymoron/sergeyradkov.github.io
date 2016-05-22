@@ -16,7 +16,10 @@ angular.module('resume').component('abilities', {
 });
 angular.module('resume').component('experience', {
         templateUrl: 'pages/experience.html',
-        controller: function(){}
+        controller: function(WorkService){
+           this.education = WorkService.getEducation();
+           this.works = WorkService.getWorks();
+        }
         
 });
 angular.module('resume').component('portfolio', {
