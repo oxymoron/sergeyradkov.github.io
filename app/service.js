@@ -3,7 +3,7 @@ angular.module('resume')
 
 	var imgRoot = 'asset/img/';
 
-    socialLinks = [{
+    var socialLinks = [{
             url: 'https://www.facebook.com/radkov.sn',
 			title: "Facebook",
 			img: imgRoot + 'social/facebook_icon.png'
@@ -23,9 +23,9 @@ angular.module('resume')
      
      this.getSocialLinks = function (){
          return socialLinks;
-     }
+     };
      
-     tools = [{
+     var tools = [{
             url: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
 			title: 'HTML',
 			img: imgRoot + 'html.png',
@@ -108,13 +108,13 @@ angular.module('resume')
          for (var i = 0; i < tools.length; i++) {
              if (tools[i].type == value) {
                  list.push(tools[i]);
-             };
-         };
+             }
+         }
          return list;
      };
      
      
-     skills = [{
+     var skills = [{
        item: "Creative problem solver",
        stars: star(5),
        type: "main"
@@ -155,11 +155,11 @@ angular.module('resume')
              var x = "glyphicon glyphicon-star";
              if(i > num){
                x = x + ' lite';  
-             };
+             }
              stars.push(x);
-         };
+         }
          return stars;
-     };
+     }
                        
      this.getSkills = function(value){
          var list = [];
@@ -170,9 +170,9 @@ angular.module('resume')
          }
          
          return list;
-     }
+     };
      
-     works = [{
+     var works = [{
             url: 'http://sergeyradkov.github.io/pop-up-penguins/',
 			title: 'Find the penguins',
 			img: imgRoot + 'work/findup.png'  
@@ -180,5 +180,5 @@ angular.module('resume')
      
      this.getWorks = function(){
          return works;
-     }
+     };
 });

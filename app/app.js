@@ -1,4 +1,4 @@
-(function(){var app = angular.module('resume', ['ui.router'])})();
+(function(){var app = angular.module('resume', ['ui.router']);})();
 
 angular.module('resume').component('aboutMe', {
         templateUrl: 'pages/about.html',
