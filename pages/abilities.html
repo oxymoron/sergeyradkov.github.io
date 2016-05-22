@@ -1,0 +1,58 @@
+<div class="container-fluid" id="abilities">
+    <div class="row">
+
+            <div class="col-md-10 col-md-offset-1 col-sm-8 col-xs-12 text-center">
+              <h2 class="head-one"> Proffesional skills</h2>
+            </div>
+            <div class="col-md-9 col-md-offset-1 col-sm-10 col-xs-10">
+                <ul>
+                    <li ng-repeat="skill in $ctrl.skills">
+                    <span class='ability-title'>{{skill.item}}</span>
+                    <span class='ability-score stars'>
+                        <span style="margin-left: 5px" class="{{star}}" ng-repeat="star in skill.stars track by $index" aria-hidden="true"></span>
+                    </li>     
+                </ul>
+            </div>
+            
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center" style='margin-bottom: 15px'>
+              <h2 class="head-two"> Languages </h2>
+            </div>
+            <div class="col-md-9 col-md-offset-1 col-sm-10 col-xs-10">
+                <ul>
+                    <li ng-repeat="language in $ctrl.languages">
+                    <span class='ability-title'>{{language.item}}</span>
+                    <span class='ability-score stars'>
+                        <span style="margin-left: 5px" class="{{star}}" ng-repeat="star in language.stars track by $index" aria-hidden="true"></span>
+                    </li>     
+                </ul>
+            </div>
+            </div>
+
+            
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center" style='margin-bottom: 20px'>
+              <h2 class='head-one'>Technologies</h2>
+            </div>
+          
+          <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-1 col-xs-12 text-center">
+              
+               <div class="icon-list" ng-repeat="tool in $ctrl.tools">
+                     <a href={{tool.url}} target="_blank">
+                     <img title= {{tool.title}} ng-src={{tool.img}} alt={{tool.title}}>
+                     </a>
+               </div>
+         </div>
+         
+        <div class="col-md-12 col-sm-12 col-xs-12 text-center" style='margin-bottom: 20px'>
+                <h2 class="head-one"> Experience with</h2>
+        </div>
+        <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-1 col-xs-12 text-center">
+              <div class="icon-list" ng-repeat="exp in $ctrl.exps">
+                     <a href={{exp.url}} target="_blank">
+                     <img title= {{exp.title}} ng-src={{exp.img}} alt={{exp.title}}>
+                     </a>
+              </div>
+        </div>
+      
+
+</div>
+</div>
