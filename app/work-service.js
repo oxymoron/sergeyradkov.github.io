@@ -28,11 +28,10 @@ angular.module('WorkService', function(){
          return education;
      };
      
-     var works = [{
-         
-     }]
+     var works = [];
      
      this.getWorks = function(){
          return works;
+     }
     
 });

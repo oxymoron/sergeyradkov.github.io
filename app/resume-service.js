@@ -175,7 +175,7 @@ angular.module('resume')
      var projects = [{
             url: 'http://sergeyradkov.github.io/pop-up-penguins/',
 			title: 'Find the penguins',
-			img: imgRoot + 'porjects/findup.png'  
+			img: imgRoot + 'projects/findup.png'  
      }];
      
      this.getProjects = function(){
