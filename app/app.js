@@ -22,7 +22,7 @@ angular.module('resume').component('experience', {
 angular.module('resume').component('portfolio', {
         templateUrl: 'pages/portfolio.html',
         controller: function(ResumeService){
-          this.works = ResumeService.getWorks();
+          this.projects = ResumeService.getProjects();
         }
         
 });

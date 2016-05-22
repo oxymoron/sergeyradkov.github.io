@@ -172,13 +172,13 @@ angular.module('resume')
          return list;
      };
      
-     var works = [{
+     var projects = [{
             url: 'http://sergeyradkov.github.io/pop-up-penguins/',
 			title: 'Find the penguins',
-			img: imgRoot + 'work/findup.png'  
+			img: imgRoot + 'porjects/findup.png'  
      }];
      
-     this.getWorks = function(){
-         return works;
+     this.getProjects = function(){
+         return projects;
      };
 });
