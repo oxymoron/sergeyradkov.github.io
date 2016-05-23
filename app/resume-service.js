@@ -28,7 +28,7 @@ angular.module('resume').service('ResumeService', function () {
      ];
  
      var skills = [
-         {item: "Creative problem solver", stars: 5, type: "main"},
+         {item: "Creative problem solver", stars: 5, type: "skill"},
          {item: "Communication & negotiation", stars: 5, type: "skill"},
          {item: "Staff management", stars: 4, type: "skill"},
          {item: "Project management", stars: 4, type: "skill"},
