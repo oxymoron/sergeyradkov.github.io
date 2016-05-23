@@ -32,6 +32,6 @@ angular.module('resume').component('portfolio', {
 angular.module('resume').component('contacts', {
         templateUrl: 'pages/contacts.html',
         controller: function(ResumeService){
-          this.socialLinks = ResumeService.getSocialLinks();
+          this.socialLinks = ResumeService.linkMap.socialLinks;
         }
 });
