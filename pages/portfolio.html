@@ -7,7 +7,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 text-center" style="margin-bottom: 50px">
                 <div class="project" ng-repeat="project in $ctrl.projects">
                 <a href={{project.url}} target="_blank">
-                <img title= {{project.title}} ng-src={{project.img}} alt={{project.title}}>
+                <img title= {{project.title}} ng-src='../../asset/img/project/{{project.img}}' alt={{project.title}}>
                 </a>   
                 </div>
             </div>

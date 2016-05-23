@@ -1,12 +1,11 @@
 angular.module('resume').service('ResumeService', function () {
 
-	var imgRoot = 'asset/img/';
 
     var socialLinks = [
-        {url: 'https://www.facebook.com/radkov.sn', title: "Facebook", img: imgRoot + 'social/facebook_icon.png'},
-		{url: 'https://www.linkedin.com/in/radkovsn', title: "LikedIn", img: imgRoot + 'social/linkedin_icon.png'},
-		{url: 'https://github.com/sergeyradkov', title: "GitHub", img: imgRoot + 'social/github_icon.png'},
-		{url: 'https://www.instagram.com/sergeriic/', title: "Instagram", img: imgRoot + 'social/instagram_info.png'}
+        {url: 'https://www.facebook.com/radkov.sn', title: "Facebook", img: 'social/facebook_icon.png'},
+		{url: 'https://www.linkedin.com/in/radkovsn', title: "LikedIn", img: 'social/linkedin_icon.png'},
+		{url: 'https://github.com/sergeyradkov', title: "GitHub", img: 'social/github_icon.png'},
+		{url: 'https://www.instagram.com/sergeriic/', title: "Instagram", img: 'instagram_info.png'}
 	];
 
      var tools = [
@@ -75,7 +74,7 @@ angular.module('resume').service('ResumeService', function () {
      };
      
      var projects = [
-         {url: 'http://sergeyradkov.github.io/pop-up-penguins/',title: 'Find the penguins',img: imgRoot + 'projects/findup.png'}  
+         {url: 'http://sergeyradkov.github.io/pop-up-penguins/',title: 'Find the penguins',img:'projects/findup.png'}  
      ];
      
      this.getProjects = function(){
