@@ -2,9 +2,9 @@ angular.module('resume').service('ResumeService', function () {
 
     this.linkMap = {
         socialLinks: [
-            {url: 'https://www.facebook.com/radkov.sn', title: "Facebook", img: 'social/facebook_icon.png'},
-            {url: 'https://www.linkedin.com/in/radkovsn', title: "LikedIn", img: 'social/linkedin_icon.png'},
-            {url: 'https://github.com/sergeyradkov', title: "GitHub", img: 'social/github_icon.png'},
+            {url: 'https://www.facebook.com/radkov.sn', title: "Facebook", img: 'facebook_icon.png'},
+            {url: 'https://www.linkedin.com/in/radkovsn', title: "LikedIn", img: 'linkedin_icon.png'},
+            {url: 'https://github.com/sergeyradkov', title: "GitHub", img: 'github_icon.png'},
             {url: 'https://www.instagram.com/sergeriic/', title: "Instagram", img: 'instagram_info.png'}
         ],
         tools: [
@@ -42,19 +42,9 @@ angular.module('resume').service('ResumeService', function () {
  
 
      
-     this.getSocialLinks = function (){
-         return socialLinks;
-     };
 
-     this.getTools = function(value){
-         var list = [];
-         for (var i = 0; i < tools.length; i++) {
-             if (tools[i].type == value) {
-                 list.push(tools[i]);
-             }
-         }
-         return list;
-     };
+
+
      
      function star(num) {
          var stars = [];
@@ -68,15 +58,7 @@ angular.module('resume').service('ResumeService', function () {
          return stars;
      };
                        
-     this.getSkills = function(value){
-         var list = [];
-         for (var i = 0; i < skills.length; i++) {
-             if (skills[i].type === value) {
-                 list.push(skills[i]);
-             }
-         }
-         return list;
-     };
+
      
      var projects = [
          {url: 'http://sergeyradkov.github.io/pop-up-penguins/',title:'Find the penguins', img:'findup.png'}  
