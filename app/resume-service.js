@@ -1,41 +1,46 @@
 angular.module('resume').service('ResumeService', function () {
 
-
-    var socialLinks = [
-        {url: 'https://www.facebook.com/radkov.sn', title: "Facebook", img: 'social/facebook_icon.png'},
-		{url: 'https://www.linkedin.com/in/radkovsn', title: "LikedIn", img: 'social/linkedin_icon.png'},
-		{url: 'https://github.com/sergeyradkov', title: "GitHub", img: 'social/github_icon.png'},
-		{url: 'https://www.instagram.com/sergeriic/', title: "Instagram", img: 'instagram_info.png'}
-	];
-
-     var tools = [
-         {url: 'https://developer.mozilla.org/en-US/docs/Web/HTML',title: 'HTML',img: 'html.png',type: 'tool'},
-         {url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',title: 'CSS',img: 'css.png',type: 'tool'},
-         {url: 'http://getbootstrap.com/',title: 'Bootstrap',img: 'bootstrap.png',type: 'tool'},
-         {url: 'http://jquery.com/',title: 'jQuery',img: 'jquery.png',type: 'tool'},
-         {url: 'https://angularjs.org/',title: 'AngularJS',img: 'angular.png',type: 'tool'},
-         {url: 'https://www.firebase.com/',title: 'Firebase',img: 'firebase.png',type: 'tool'},
-         {url: 'https://developer.mozilla.org/en/docs/Web/JavaScript',title: 'JavaScript',img: 'javascript.png' ,type: 'tool'},
-         {url: 'https://msdn.microsoft.com/en-us/library/kx37x362.aspx',title: 'C#',img: 'csharp.png',type: 'tool'},
-         {url: 'https://github.com/',title: 'GitHub',img: 'github.png',type: 'tool'},
-         {url: 'https://www.microsoft.com/net/default.aspx',title: 'Microsoft.NET',img: 'dotnet.png',type: 'tool'},
-         {url: 'https://www.visualstudio.com/',title: 'Visual Studio',img: 'vs.png',type: 'tool'},
-         {url: 'https://www.jetbrains.com/idea/',title: 'Intellij IDEA',img: 'idea.png',type: 'tool'},
-         {url: "https://www.java.com/",title: "Java",img: 'java.png',type: 'exp'},
-         {url: "http://developer.android.com/index.html",title: "Android Studio",img: 'as.png',type: 'exp'},
-         {url: "https://nodejs.org/",title: "Node.JS",img: 'nodejs.png',type: 'exp'}
-     ];
+    this.linkMap = {
+        socialLinks: [
+            {url: 'https://www.facebook.com/radkov.sn', title: "Facebook", img: 'social/facebook_icon.png'},
+            {url: 'https://www.linkedin.com/in/radkovsn', title: "LikedIn", img: 'social/linkedin_icon.png'},
+            {url: 'https://github.com/sergeyradkov', title: "GitHub", img: 'social/github_icon.png'},
+            {url: 'https://www.instagram.com/sergeriic/', title: "Instagram", img: 'instagram_info.png'}
+        ],
+        tools: [
+            {url: 'https://developer.mozilla.org/en-US/docs/Web/HTML',title: 'HTML',img: 'html.png'},
+            {url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',title: 'CSS',img: 'css.png'},
+            {url: 'http://getbootstrap.com/',title: 'Bootstrap',img: 'bootstrap.png'},
+            {url: 'http://jquery.com/',title: 'jQuery',img: 'jquery.png'},
+            {url: 'https://angularjs.org/',title: 'AngularJS',img: 'angular.png'},
+            {url: 'https://www.firebase.com/',title: 'Firebase',img: 'firebase.png',type: 'tool'},
+            {url: 'https://developer.mozilla.org/en/docs/Web/JavaScript',title: 'JavaScript',img: 'javascript.png' ,type: 'tool'},
+            {url: 'https://msdn.microsoft.com/en-us/library/kx37x362.aspx',title: 'C#',img: 'csharp.png',type: 'tool'},
+            {url: 'https://github.com/',title: 'GitHub',img: 'github.png',type: 'tool'},
+            {url: 'https://www.microsoft.com/net/default.aspx',title: 'Microsoft.NET',img: 'dotnet.png',type: 'tool'},
+            {url: 'https://www.visualstudio.com/',title: 'Visual Studio',img: 'vs.png',type: 'tool'},
+            {url: 'https://www.jetbrains.com/idea/',title: 'Intellij IDEA',img: 'idea.png',type: 'tool'}
+            ],
+        exps: [
+            {url: "https://www.java.com/",title: "Java",img: 'java.png'},
+            {url: "http://developer.android.com/index.html",title: "Android Studio",img: 'as.png'},
+            {url: "https://nodejs.org/",title: "Node.JS",img: 'nodejs.png'}
+        ],
+         skills = [
+            {item: "Creative problem solver", stars: 5},
+            {item: "Communication & negotiation", stars: 5},
+            {item: "Staff management", stars: 4},
+            {item: "Project management", stars: 4},
+            {item: "Analitycal skills", stars: 5},
+            {item: "Time management", stars: 5}
+            ],
+        languages = [
+            {item: "Russian", stars: 5},
+            {item: "English", stars: 4}
+            ]
+    };
  
-     var skills = [
-         {item: "Creative problem solver", stars: 5, type: "skill"},
-         {item: "Communication & negotiation", stars: 5, type: "skill"},
-         {item: "Staff management", stars: 4, type: "skill"},
-         {item: "Project management", stars: 4, type: "skill"},
-         {item: "Analitycal skills", stars: 5, type: "skill"},
-         {item: "Time management", stars: 5, type: "skill"},
-         {item: "Russian", stars: 5, type: "language"},
-         {item: "English", stars: 4, type: "language"}
-     ];
+
      
      this.getSocialLinks = function (){
          return socialLinks;
