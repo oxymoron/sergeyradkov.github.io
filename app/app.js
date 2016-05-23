@@ -33,5 +33,6 @@ angular.module('resume').component('contacts', {
         templateUrl: 'pages/contacts.html',
         controller: function(ResumeService){
           this.socialLinks = ResumeService.linkMap.socialLinks;
+          debugger
         }
 });
