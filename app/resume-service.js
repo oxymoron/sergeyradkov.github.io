@@ -26,7 +26,7 @@ angular.module('resume').service('ResumeService', function () {
             {url: "http://developer.android.com/index.html",title: "Android Studio",img: 'as.png'},
             {url: "https://nodejs.org/",title: "Node.JS",img: 'nodejs.png'}
         ],
-         skills: [
+       skills: [
             {item: "Creative problem solver", stars: 5},
             {item: "Communication & negotiation", stars: 5},
             {item: "Staff management", stars: 4},
@@ -34,7 +34,7 @@ angular.module('resume').service('ResumeService', function () {
             {item: "Analitycal skills", stars: 5},
             {item: "Time management", stars: 5}
             ],
-        languages = [
+     languages:[
             {item: "Russian", stars: 5},
             {item: "English", stars: 4}
             ]
