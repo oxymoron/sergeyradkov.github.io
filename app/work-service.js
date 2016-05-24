@@ -1,10 +1,10 @@
 angular.module('resume').service('WorkService', function(){
         
-    var education = [{
+    this.education = [{
         fullURL: 'https://boisecodeworks.com/',
         shortURL: 'boisecodeworks.com',
 	    place: "BoiseCodeWorks",
-		img: imgRoot + 'bcw.png',
+		img: 'bcw.png',
         course: 'Web Development Immersive Course',
         subCourse: '',
         period: 'April - June 2016',
@@ -14,7 +14,7 @@ angular.module('resume').service('WorkService', function(){
         fullURL: 'https://guu.ru/?page_id=19813&lang=en',
         shortURL: 'guu.ru',
 	    place: "State University of Management",
-		img: imgRoot + 'sum.png',
+		img: 'sum.png',
         course: 'Master’s Degree',
         subCourse: 'Transport Management (combined bachelor/master program)',
         period: 'September 1997 - June 2002',
@@ -22,10 +22,7 @@ angular.module('resume').service('WorkService', function(){
         description: "Five year program specialized in management, technology, communications and accounting for motor transport companies and business transport departments."
     }];
     
-     this.getEducation = function(){
-         return education;
-     };
-     
+
      var works = [];
      
      this.getWorks = function(){

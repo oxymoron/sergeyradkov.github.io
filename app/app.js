@@ -17,7 +17,7 @@ angular.module('resume').component('abilities', {
 angular.module('resume').component('experience', {
         templateUrl: 'pages/experience.html',
         controller: function(WorkService){
-           this.education = WorkService.getEducation();
+           this.education = WorkService.education();
            this.works = WorkService.getWorks();
         }
         

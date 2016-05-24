@@ -15,3 +15,7 @@
   color: antiquewhite;
   text-decoration: none;
 }
+#experience img {
+  padding: 60px 0 10px 0;
+  width: 100px;
+}
