@@ -29,39 +29,17 @@ angular.module('resume').service('ResumeService', function () {
        skills: [
             {item: "Creative problem solver", stars: 5},
             {item: "Communication & negotiation", stars: 5},
+            {item: "Analitycal skills", stars: 5},
             {item: "Staff management", stars: 4},
             {item: "Project management", stars: 4},
-            {item: "Analitycal skills", stars: 5},
-            {item: "Time management", stars: 5}
+            {item: "Time management", stars: 4}
             ],
      languages:[
             {item: "Russian", stars: 5},
             {item: "English", stars: 4}
+            ],
+      projects: [
+           {url: 'http://sergeyradkov.github.io/pop-up-penguins/',title:'Find the penguins', img:'findup.png'} 
             ]
     };
- 
-
-     
-
-
-
-     
-     function star(num) {
-         var stars = [];
-         for (var i = 1; i < 6; i++) {
-             var x = "glyphicon glyphicon-star";
-             if(i > num){
-               x = x + ' lite';  
-             }
-             stars.push(x);
-         }
-         return stars;
-     };
-                       
-
-     
-     this.projects = [
-         {url: 'http://sergeyradkov.github.io/pop-up-penguins/',title:'Find the penguins', img:'findup.png'}  
-     ];
-
 });
