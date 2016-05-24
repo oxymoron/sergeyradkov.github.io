@@ -16,19 +16,18 @@
        <div class="col-md-12 col-sm-12 col-xs-12 place">
            <div class="col-md-3 col-sm-3 col-xs-12 text-center" style="float: leright">
                 <a ng-href="{{place.fullURL}}" target="_blank">
-                <img class="center-block" ng-src="asset/img/work/{{place.img}}" alt={{place.place}} target="_blank" title={{place.place}} style="padding: 60px 0 10px 0" width="100px">
+                <img class="center-block" ng-src="asset/img/work/{{place.img}}" alt={{place.place}} target="_blank" title={{place.place}}>
                 </a>
            </div>
            <div class="col-md-9 col-sm-9s col-xs-12">
-               <h2>Web Development Immersive Course</h2> 
+               <h2>{{place.course}}</h2>
+               <h3 style="margin-top:0px">{{place.subCourse}}</h3>
                <h4> 
-                   <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span><span> April - June 2016 |</span>
-                   <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Boise, ID, USA |
-                   <span class="glyphicon glyphicon-link" aria-hidden="true"></span> <a target="_blank" href="https://boisecodeworks.com/"> boisecodeworks.com</a>
+                   <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span><span> {{place.period}} |</span>
+                   <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> {{place.address}}|
+                   <span class="glyphicon glyphicon-link" aria-hidden="true"></span> <a target="_blank" ng-href="{{place.fullURL}}"> {{place.shortURL}}</a>
                </h4>
-               <p align="justify">The Immersive Course is a full-time experience designed for students looking to start a career 
-               in programming. As an Immersive student I learned both front-end and back-end technologies, and work in groups 
-               under the supervision of experienced mentors to create fully functional real-world applications.</p>
+               <p align="justify">{{place.description}}</p>
            </div>
       </div>
      </div>
