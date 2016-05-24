@@ -1,12 +1,10 @@
 angular.module('resume').service('WorkService', function(){
-    
-    	var imgRoot = 'asset/img/work';
         
     var education = [{
         fullURL: 'https://boisecodeworks.com/',
         shortURL: 'boisecodeworks.com',
 	    place: "BoiseCodeWorks",
-		img: imgRoot + '/bcw.png',
+		img: imgRoot + 'bcw.png',
         course: 'Web Development Immersive Course',
         subCourse: '',
         period: 'April - June 2016',
@@ -16,7 +14,7 @@ angular.module('resume').service('WorkService', function(){
         fullURL: 'https://guu.ru/?page_id=19813&lang=en',
         shortURL: 'guu.ru',
 	    place: "State University of Management",
-		img: imgRoot + '/sum.png',
+		img: imgRoot + 'sum.png',
         course: 'Master’s Degree',
         subCourse: 'Transport Management (combined bachelor/master program)',
         period: 'September 1997 - June 2002',

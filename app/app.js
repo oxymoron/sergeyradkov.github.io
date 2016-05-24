@@ -9,9 +9,9 @@ angular.module('resume').component('abilities', {
         templateUrl: 'pages/abilities.html',
         controller: function(ResumeService){
               
-           this.tools  = ResumeService.linkMap.tools;
-           this.exps   = ResumeService.linkMap.exps;
-           this.skills = ResumeService.linkMap.skills;
+           this.tools     = ResumeService.linkMap.tools;
+           this.exps      = ResumeService.linkMap.exps;
+           this.skills    = ResumeService.linkMap.skills;
            this.languages = ResumeService.linkMap.languages;
         } 
 });
@@ -26,7 +26,7 @@ angular.module('resume').component('experience', {
 angular.module('resume').component('portfolio', {
         templateUrl: 'pages/portfolio.html',
         controller: function(ResumeService){
-          this.projects = ResumeService.getProjects();
+          this.projects = ResumeService.projects;
         }
         
 });

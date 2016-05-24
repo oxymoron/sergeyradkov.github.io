@@ -60,11 +60,8 @@ angular.module('resume').service('ResumeService', function () {
                        
 
      
-     var projects = [
+     this.projects = [
          {url: 'http://sergeyradkov.github.io/pop-up-penguins/',title:'Find the penguins', img:'findup.png'}  
      ];
-     
-     this.getProjects = function(){
-         return projects;
-     };
+
 });
