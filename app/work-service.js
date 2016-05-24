@@ -22,55 +22,32 @@ angular.module('resume').service('WorkService', function(){
         address: 'Moscow, Russia',
         description: "Five year program specialized in management, technology, communications and accounting for motor transport companies and business transport departments."
         }],
-    works: [{}]    
-    };
-
-          /* <div class="col-xs-12 place">
-           <div class="col-md-3 col-xs-12 text-center">
-                <a class="center-block" href="http://www.volvotrucks.com/" target="_blank"> <img src="asset/img/volvo.png" alt="volvo"  title=" Volvo Trucks"style="padding: 60px 0 10px 0"></a>
-           </div>
-           <div class="col-md-7 col-xs-12">
-               <h2>Senior Product Engineer</h2>
-               <h4> 
-                   <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> July 2010 - October 2015 |
-                   <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Moscow, Russia |
-                   <span class="glyphicon glyphicon-link" aria-hidden="true"></span> <a target="_blank" href="http://www.volvotrucks.com/"> volvotrucks.com </a>
-               </h4>
-               <p align="justify">Promoted Volvo telematics services, provided technical support for customers and team members. 
-                  Established new consulting service using Volvo’s telematics data to increase efficiency of customer's business.</p>
-           </div>
-        </div>
-        
-        <div class="col-xs-12 place">
-           <div class="col-md-3 col-xs-12 text-center">
-                <a class="center-block" href="http://ru.total.com/en" target="_blank"> <img src="asset/img/total.png" alt="total" title="TOTAL E&P Russia" style="padding: 50px 0 10px 0" width="80px"></a>
-           </div>
-           <div class="col-md-7 col-xs-12">
-               <h2>Transportation coordinator</h2>
-               <h4> 
-                   <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> February 2008 - June 2010 |
-                   <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Moscow, Russia |
-                   <span class="glyphicon glyphicon-link" aria-hidden="true"></span> <a target="_blank" href="http://ru.total.com/en"> total.com </a>
-               </h4>                
-               <p align="justify">Managed company carpool of cars, managed drivers, and oversaw staff/customer transportation services.
-                Oversaw contract compliance with leasing, insurance, transportation and other corporate partners.</p>
-           </div>
-        </div>
-       
-        
-        <div class="col-xs-12 place">
-           <div class="col-md-3 col-xs-12 text-center">
-                <a class="center-block" href="http://www.danone.com/" target="_blank"> <img src="asset/img/danone.png" alt="danone" title="Danone / Unimilk" style="padding: 50px 0 10px 0" width="80px"></a>
-           </div>
-           <div class="col-md-7 col-xs-12">
-               <h2>Transportation Manager</h2>
-               <h4> 
-                   <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> October 2006 - August 20070 |
-                   <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Moscow, Russia |
-                   <span class="glyphicon glyphicon-link" aria-hidden="true"></span> <a target="_blank" href="http://www.danone.com/"> danone.com </a>
-               </h4>                
-               <p align="justify">Managed corporate carpool of cars, supervised drivers, and oversaw transportation services for staff and visitors.
-                    Developed transportation plans, policies and budgets</p>
-           </div>
-        </div>*/
+    works: [{
+        fullURL: 'http://www.volvotrucks.com/',
+        shortURL: 'volvotrucks.com',
+	    place: "Volvo Trucks Russia",
+		img: 'volvo.png',
+        position: 'Senior Product Engineer',
+        period: 'July 2010 - October 2015',
+        address: 'Moscow, Russia',
+        description: "Promoted Volvo telematics services, provided technical support for customers and team members. Established new consulting service using Volvo’s telematics data to increase efficiency of customer's business."
+        },{
+        fullURL: "http://ru.total.com/en",
+        shortURL: "total.com",
+	    place: "TOTAL E&P Russia",
+		img: 'total.png',
+        position: 'Transportation coordinator',
+        period: 'February 2008 - June 2010',
+        address: 'Moscow, Russia',
+        description: "Managed company carpool of cars, managed drivers, and oversaw staff/customer transportation services. Oversaw contract compliance with leasing, insurance, transportation and other corporate partners."   
+        },{
+        fullURL: "http://www.danone.com/",
+        shortURL: "danone.com",
+	    place: "Danone / Unimilk",
+		img: 'danone.png',
+        position: "Transportation Manager",
+        period: "October 2006 - August 20070",
+        address: 'Moscow, Russia',
+        description: "Managed corporate carpool of cars, supervised drivers, and oversaw transportation services for staff and visitors. Developed transportation plans, policies and budgets"             
+        }]};
 });

@@ -18,7 +18,7 @@ angular.module('resume').component('experience', {
         templateUrl: 'pages/experience.html',
         controller: function(WorkService){
            this.education = WorkService.placesMap.education;
-          // this.works = WorkService.getWorks();
+           this.works = WorkService.placesMap.works;
         }
         
 });
