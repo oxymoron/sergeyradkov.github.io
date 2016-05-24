@@ -15,7 +15,7 @@
   color: antiquewhite;
   text-decoration: none;
 }
-#experience img {
+#experience .work-img {
   padding: 60px 0 10px 0;
   width: 100px;
 }
