@@ -8,7 +8,6 @@ angular.module('resume').component('aboutMe', {
 angular.module('resume').component('abilities', {
         templateUrl: 'pages/abilities.html',
         controller: function(ResumeService){
-              
            this.tools     = ResumeService.linkMap.tools;
            this.exps      = ResumeService.linkMap.exps;
            this.skills    = ResumeService.linkMap.skills;
@@ -26,7 +25,7 @@ angular.module('resume').component('experience', {
 angular.module('resume').component('portfolio', {
         templateUrl: 'pages/portfolio.html',
         controller: function(ResumeService){
-          this.projects = ResumeService.projects;
+          this.projects = ResumeService.linkMap.projects;
         }
         
 });
@@ -34,6 +33,5 @@ angular.module('resume').component('contacts', {
         templateUrl: 'pages/contacts.html',
         controller: function(ResumeService){
           this.socialLinks = ResumeService.linkMap.socialLinks;
-          debugger
         }
 });
