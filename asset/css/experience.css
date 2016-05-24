@@ -23,3 +23,8 @@
   padding: 70px 0 10px 0;
   width: 100px;
 }
+#experience img:hover {
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
