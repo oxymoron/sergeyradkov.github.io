@@ -39,7 +39,8 @@ angular.module('resume').service('ResumeService', function () {
             {item: "English", stars: 4}
             ],
       projects: [
-           {url: 'http://sergeyradkov.github.io/pop-up-penguins/',title:'Find the penguins', img:'findup.png'} 
+           {url: 'http://sergeyradkov.github.io/pop-up-penguins/',title:'Find the penguins', img:'findup.png'},
+           {url: 'http://sergeyradkov.github.io/music-finder/', title:'iTunes Music Finder', img:'imf.png'} 
             ]
     };
 });
