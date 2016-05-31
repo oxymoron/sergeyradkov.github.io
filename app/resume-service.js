@@ -27,7 +27,7 @@ angular.module('resume').service('ResumeService', function () {
             {url: "https://nodejs.org/",title: "Node.JS",img: 'nodejs.png'}
         ],
        skills: [
-            {item: "Creative problem solver", stars: 5},
+            {item: "Problem solving", stars: 5},
             {item: "Communication & negotiation", stars: 5},
             {item: "Analitycal skills", stars: 5},
             {item: "Staff management", stars: 4},
