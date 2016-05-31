@@ -8,7 +8,6 @@
   font-size: 20px;
   z-index: 100;
 }
-
 #abilities .lite {
   color: #bb8866;
 }
@@ -18,7 +17,6 @@
     -webkit-transform: scale(1.2);
     color: blue;
 }
-
 #abilities ul {
     list-style: none;
 }
@@ -30,15 +28,12 @@
     float: right;
     padding-right: 15px;
 }
-
 #abilities ul>li:hover{
     background-color: lightgray;
 }
-
 #abilities img{
     width: 80px;
 }
-
 #abilities .icon-list {
     display: inline-block;
     margin: 5px 10px 5px 10px;
