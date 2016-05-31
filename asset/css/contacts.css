@@ -20,6 +20,7 @@
  }
  .soc-icons:hover{
    background-color: aliceblue;
+   border-radius: 50%;
  }
  
 #contacts ul {
