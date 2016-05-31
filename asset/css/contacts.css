@@ -18,6 +18,9 @@
   display: inline-block;
   margin: 5px 10px 5px 10px;
  }
+ .soc-icons:hover{
+   background-color: aliceblue;
+ }
  
 #contacts ul {
 list-style: none;
