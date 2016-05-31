@@ -45,3 +45,6 @@ margin-left: 25px;
 #contacts label{
   font-weight: normal;
 }
+#contacts .btn.btn-primary {
+  width: 100%;
+}
