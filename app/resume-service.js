@@ -41,7 +41,12 @@ angular.module('resume').service('ResumeService', function () {
       projects: [
            {url: 'http://sergeyradkov.github.io/pop-up-penguins/',title:'Find the penguins', img:'findup.png'},
            {url: 'http://sergeyradkov.github.io/music-finder/', title:'iTunes Music Finder', img:'imf.png'},
-           {url: 'http://sergeyradkov.github.io/calculators/', title:'Digital Converter', img:'digcon.jpg'}        
-            ]
+           {url: 'http://sergeyradkov.github.io/calculators/', title:'Digital Converter', img:'digcon.jpg'},
+           {url: 'http://sergeyradkov.github.io/The-Slap-Game/', title:'The Slap Game', img:'.png'},
+           {url: 'http://sergeyradkov.github.io//', title:'gym-buddies', img:'.png'},
+           {url: 'http://sergeyradkov.github.io//', title:'Inspire Page', img:'.png'},
+           {url: 'http://sergeyradkov.github.io//', title:'Marvel Comics Store', img:'.png'},
+           {url: 'http://sergeyradkov.github.io//', title:'Marvel Comics Store', img:'.png'}
+                ]
     };
 });
