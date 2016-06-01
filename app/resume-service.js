@@ -46,7 +46,7 @@ angular.module('resume').service('ResumeService', function () {
            {url: 'http://sergeyradkov.github.io//', title:'gym-buddies', img:'.png'},
            {url: 'http://sergeyradkov.github.io//', title:'Inspire Page', img:'.png'},
            {url: 'http://sergeyradkov.github.io//', title:'Marvel Comics Store', img:'.png'},
-           {url: 'http://sergeyradkov.github.io//', title:'Marvel Comics Store', img:'.png'}
+           {url: 'http://sergeyradkov.github.io//', title:'QB Form Helper', img:'.png'}
                 ]
     };
 });
