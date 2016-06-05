@@ -43,10 +43,9 @@ angular.module('resume').service('ResumeService', function () {
            {url: 'http://sergeyradkov.github.io/music-finder/', title:'iTunes Music Finder', img:'imf.png'},
            {url: 'http://sergeyradkov.github.io/calculators/', title:'Digital Converter', img:'digcon.png'},
            {url: 'http://sergeyradkov.github.io/The-Slap-Game/', title:'The Slap Game', img:'slap.png'},
-           {url: 'http://sergeyradkov.github.io//', title:'gym-buddies', img:'.png'},
            {url: 'http://sergeyradkov.github.io/inspire/', title:'Inspire Page', img:'inspire.png'},
-           {url: 'http://sergeyradkov.github.io//', title:'Marvel Comics Store', img:'.png'},
-           {url: 'http://sergeyradkov.github.io//', title:'QB Form Helper', img:'.png'}
+        //    {url: 'http://sergeyradkov.github.io//', title:'Marvel Comics Store', img:'.png'},
+        //    {url: 'http://sergeyradkov.github.io//', title:'QB Form Helper', img:'.png'}
                 ]
     };
 });
