@@ -13,19 +13,27 @@ angular.module('resume').service('ResumeService', function () {
             {url: 'http://getbootstrap.com/',title: 'Bootstrap',img: 'bootstrap.png'},
             {url: 'http://jquery.com/',title: 'jQuery',img: 'jquery.png'},
             {url: 'https://angularjs.org/',title: 'AngularJS',img: 'angular.png'},
-            {url: 'https://www.firebase.com/',title: 'Firebase',img: 'firebase.png',type: 'tool'},
             {url: 'https://developer.mozilla.org/en/docs/Web/JavaScript',title: 'JavaScript',img: 'javascript.png' ,type: 'tool'},
-            {url: 'https://msdn.microsoft.com/en-us/library/kx37x362.aspx',title: 'C#',img: 'csharp.png',type: 'tool'},
+            {url: "https://nodejs.org/",title: "Node.JS",img: 'nodejs.png'},
+            {url: "https://www.npmjs.com/",title: "NPM",img: 'npm.png'},
             {url: 'https://github.com/',title: 'GitHub',img: 'github.png',type: 'tool'},
-            {url: 'https://www.microsoft.com/net/default.aspx',title: 'Microsoft.NET',img: 'dotnet.png',type: 'tool'},
+            {url: "https://heroku.com/",title: "Heroku",img: 'heroku.png'},
+            {url: "https://bower.io/",title: "Bower",img: 'bower.png'},
             {url: 'https://www.visualstudio.com/',title: 'Visual Studio',img: 'vs.png',type: 'tool'},
             {url: 'https://www.jetbrains.com/idea/',title: 'Intellij IDEA',img: 'idea.png',type: 'tool'}
             ],
         exps: [
+            {url: 'https://msdn.microsoft.com/en-us/library/kx37x362.aspx',title: 'C#',img: 'csharp.png',type: 'tool'},
+            {url: 'https://www.microsoft.com/net/default.aspx',title: 'Microsoft.NET',img: 'dotnet.png',type: 'tool'},
             {url: "https://www.java.com/",title: "Java",img: 'java.png'},
             {url: "http://developer.android.com/index.html",title: "Android Studio",img: 'as.png'},
-            {url: "https://nodejs.org/",title: "Node.JS",img: 'nodejs.png'}
-        ],
+            {url: 'https://www.firebase.com/',title: 'Firebase',img: 'firebase.png',type: 'tool'},
+            {url: "http://www.js-data.io/",title: "JSData",img: 'jsdata.png'},
+            {url: "https://www.mysql.com/",title: "MySQL",img: 'mysql.png'},
+            {url: "http://foundation.zurb.com/",title: "Foundation",img: 'found.png'},
+            {url: "http://expressjs.com/",title: "Express",img: 'express.png'},
+            {url: "https://www.twilio.com/",title: "Twilio",img: 'twilio.png'}
+            ],
        skills: [
             {item: "Problem solving", stars: 5},
             {item: "Communication & negotiation", stars: 5},
