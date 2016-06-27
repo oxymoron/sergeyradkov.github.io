@@ -45,7 +45,7 @@ angular.module('resume').service('ResumeService', function () {
            {url: 'http://sergeyradkov.github.io/The-Slap-Game/', title:'The Slap Game', img:'slap.png'},
            {url: 'http://sergeyradkov.github.io/inspire/', title:'Inspire Page', img:'inspire.png'},
         //    {url: 'http://sergeyradkov.github.io/comics/', title:'Marvel Comics Store', img:'.png'},
-           {url: 'https://qbemailgrabber.herokuapp.com/', title:'QB Form Helper', img:'qbhelper.png'}
+           {url: 'https://qbhdemo.herokuapp.com/', title:'QB Form Helper', img:'qbhelper.png'}
                 ]
     };
 });
