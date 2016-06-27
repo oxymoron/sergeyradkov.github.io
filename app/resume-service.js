@@ -39,13 +39,13 @@ angular.module('resume').service('ResumeService', function () {
             {item: "English", stars: 4}
             ],
       projects: [
-           {url: 'http://sergeyradkov.github.io/pop-up-penguins/',title:'Find the penguins', img:'findup.png'},
-           {url: 'http://sergeyradkov.github.io/music-finder/', title:'iTunes Music Finder', img:'imf.png'},
-           {url: 'http://sergeyradkov.github.io/calculators/', title:'Digital Converter', img:'digcon.png'},
-           {url: 'http://sergeyradkov.github.io/The-Slap-Game/', title:'The Slap Game', img:'slap.png'},
-           {url: 'http://sergeyradkov.github.io/inspire/', title:'Inspire Page', img:'inspire.png'},
-        //    {url: 'http://sergeyradkov.github.io/comics/', title:'Marvel Comics Store', img:'.png'},
-           {url: 'https://qbhdemo.herokuapp.com/', title:'QB Form Helper', img:'qbhelper.png'}
+           {url: 'http://sergeyradkov.github.io/pop-up-penguins/',title:'Find the penguins', img:'findup.png', github: 'https://github.com/sergeyradkov/pop-up-penguins', des: 'Online game: find all pingues and don\'t meet a yeti'},
+           {url: 'http://sergeyradkov.github.io/music-finder/', title:'iTunes Music Finder', img:'imf.png', github: 'https://github.com/sergeyradkov/music-finder', des: 'Find all your favorite music in iTunes Store'},
+           {url: 'http://sergeyradkov.github.io/calculators/', title:'Digital Converter', img:'digcon.png', github: 'https://github.com/sergeyradkov/calculators', des: 'Online digital converter from US to EU'},
+           {url: 'http://sergeyradkov.github.io/The-Slap-Game/', title:'The Slap Game', img:'slap.png', github: 'https://github.com/sergeyradkov/The-Slap-Game', des: 'Online game: be brave and terminate a thug'},
+           {url: 'http://sergeyradkov.github.io/inspire/', title:'Inspire Page', img:'inspire.png', github: 'https://github.com/sergeyradkov/inspire', des: 'Begin or continue your day with a nice landing page'},
+    //     {url: 'http://sergeyradkov.github.io/comics/', title:'Marvel Comics Store', img:'.png', github: 'https://github.com/sergeyradkov/comics', des: 'Welcome to the Avengers world! Online wiki by Marvel comics'},
+           {url: 'https://qbhdemo.herokuapp.com/', title:'QB Form Helper', img:'qbhelper.png', github: 'https://github.com/sergeyradkov/qbemailgrabber', des: 'Web application for QuickBooks helps to provide custome info online'}
                 ]
     };
 });
