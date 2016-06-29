@@ -28,7 +28,7 @@ angular.module('resume').service('ResumeService', function () {
             {url: "https://www.java.com/",title: "Java",img: 'java.png'},
             {url: "http://developer.android.com/index.html",title: "Android Studio",img: 'as.png'},
             {url: 'https://www.firebase.com/',title: 'Firebase',img: 'firebase.png',type: 'tool'},
-            {url: "http://www.js-data.io/",title: "JSData",img: 'jsdata.png'},
+            {url: "http://www.js-data.io/",title: "JSData",img: 'js-data.png'},
             {url: "https://www.mysql.com/",title: "MySQL",img: 'mysql.png'},
             {url: "http://foundation.zurb.com/",title: "Foundation",img: 'found.png'},
             {url: "http://expressjs.com/",title: "Express",img: 'express.png'},
@@ -49,7 +49,7 @@ angular.module('resume').service('ResumeService', function () {
       projects: [
            {url: 'https://github.com/sergeyradkov/find-penguins',title:'Find the penguins', img:'findup.png', github: 'https://github.com/sergeyradkov/find-penguins', des: 'Online game: find all pingues and don\'t meet a yeti'},
            {url: 'http://sergeyradkov.github.io/music-finder/', title:'iTunes Music Finder', img:'imf.png', github: 'https://github.com/sergeyradkov/music-finder', des: 'Find all your favorite music in iTunes Store'},
-           {url: 'http://sergeyradkov.github.io/calculators/', title:'Digital Converter', img:'digcon.png', github: 'https://github.com/sergeyradkov/calculators', des: 'Online digital converter from US to EU'},
+           {url: 'http://sergeyradkov.github.io/calculators/', title:'Digital Converter', img:'digcon.png', github: 'https://github.com/sergeyradkov/calculators', des: 'Online digital converter from US to EU measurements'},
            {url: 'http://sergeyradkov.github.io/The-Slap-Game/', title:'The Slap Game', img:'slap.png', github: 'https://github.com/sergeyradkov/The-Slap-Game', des: 'Online game: be brave and terminate a thug'},
            {url: 'http://sergeyradkov.github.io/inspire/', title:'Inspire Page', img:'inspire.png', github: 'https://github.com/sergeyradkov/inspire', des: 'Begin or continue your day with a nice landing page'},
     //     {url: 'http://sergeyradkov.github.io/comics/', title:'Marvel Comics Store', img:'.png', github: 'https://github.com/sergeyradkov/comics', des: 'Welcome to the Avengers world! Online wiki by Marvel comics'},

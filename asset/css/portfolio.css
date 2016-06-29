@@ -10,18 +10,15 @@
 .project{
     display: inline-block;
     margin: 5px 10px 5px 10px;
-    position:relative;
     position: relative;
     width: 270px;
     height: 150px;
 }
-
 .project img {
   width: 270px;
   height: 150px;
   border: 1px solid black;
 }
-
 .pjlx{
     position:absolute;
     width: 270px;
@@ -56,4 +53,8 @@
   display: block;
   position:absolute;
   z-index:9999;
+}
+.pjdes{
+  padding-left: 10px;
+  padding-right: 10px;
 }

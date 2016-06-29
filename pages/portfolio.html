@@ -8,7 +8,7 @@
                 <div class="project" ng-repeat="project in $ctrl.projects">
                     <img title= {{project.title}} ng-src='asset/img/project/{{project.img}}' alt={{project.title}}>
                     <div class="pjlx" role="group">
-                        <p>{{project.des}}</p>
+                        <p class="pjdes">{{project.des}}</p>
                         <a href="{{project.url}}" target="_blank"><p class="pjlink">demo</p></a>
                         <a href="{{project.github}}" target="_blank"><p class="pjlink">github</p></a>
                     </div>
