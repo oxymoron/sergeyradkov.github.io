@@ -47,7 +47,7 @@ angular.module('resume').service('ResumeService', function () {
             {item: "English", stars: 4}
             ],
       projects: [
-           {url: 'https://github.com/sergeyradkov/find-penguins',title:'Find the penguins', img:'findup.png', github: 'https://github.com/sergeyradkov/find-penguins', des: 'Online game: find all pingues and don\'t meet a yeti'},
+           {url: 'http://sergeyradkov.github.io/find-penguins',title:'Find the penguins', img:'findup.png', github: 'https://github.com/sergeyradkov/find-penguins', des: 'Online game: find all pingues and don\'t meet a yeti'},
            {url: 'http://sergeyradkov.github.io/music-finder/', title:'iTunes Music Finder', img:'imf.png', github: 'https://github.com/sergeyradkov/music-finder', des: 'Find all your favorite music in iTunes Store'},
            {url: 'http://sergeyradkov.github.io/calculators/', title:'Digital Converter', img:'digcon.png', github: 'https://github.com/sergeyradkov/calculators', des: 'Online digital converter from US to EU measurements'},
            {url: 'http://sergeyradkov.github.io/The-Slap-Game/', title:'The Slap Game', img:'slap.png', github: 'https://github.com/sergeyradkov/The-Slap-Game', des: 'Online game: be brave and terminate a thug'},
