@@ -27,7 +27,7 @@ angular.module('resume').service('ResumeService', function () {
             {url: 'https://www.microsoft.com/net/default.aspx',title: 'Microsoft.NET',img: 'dotnet.png',type: 'tool'},
             {url: "https://www.java.com/",title: "Java",img: 'java.png'},
             {url: "http://developer.android.com/index.html",title: "Android Studio",img: 'as.png'},
-            {url: 'https://www.firebase.com/',title: 'Firebase',img: 'firebase.png',type: 'tool'},
+            {url: 'https://www.firebase.com/',title: 'Firebase',img: 'firebase.jpg',type: 'tool'},
             {url: "http://www.js-data.io/",title: "JSData",img: 'js-data.png'},
             {url: "https://www.mysql.com/",title: "MySQL",img: 'mysql.png'},
             {url: "http://foundation.zurb.com/",title: "Foundation",img: 'found.png'},
