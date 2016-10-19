@@ -27,7 +27,7 @@ angular.module('resume').service('WorkService', function(){
         fullURL: 'http://sradkov.com',
         shortURL: 'sradkov.com',
 	    place: "Freelance",
-		img: '*.png',
+		img: 'wdf.png',
         position: 'Web Developer',
         period: 'June 2016 - now',
         address: 'Boise, Idaho, USA',
